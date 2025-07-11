@@ -17,7 +17,7 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
     background-color: var(--C1);
     color: #fff;
-    cursor: url("res/img.png") 0 0, auto;
+    cursor: url("res/site/cursor.png") 0 0, auto;
 }
 
 body {
