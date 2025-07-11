@@ -17,6 +17,7 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
     background-color: var(--C1);
     color: #fff;
+    cursor: url("res/img.png") 0 0, auto;
 }
 
 body {
@@ -26,6 +27,8 @@ body {
 }
 
 .nav-menu {
+    display: flex;
+    gap: 2.5%;
     flex: 0 0 6%;
     padding: 1%;
     margin: 1% 1% 1% 1%;
@@ -33,6 +36,22 @@ body {
     background-color: var(--C3);
     border-radius: 12px;
     box-sizing: border-box;
+}
+
+.nav-menu a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.25s ease-in;
+}
+
+.nav-menu a:visited {
+    color: inherit;
+}
+
+.nav-menu a:hover {
+    color: var(--C2);
+    text-shadow: 1px 1px 0 white;
+    transition: color 0.25s ease-in;
 }
 
 .main {
